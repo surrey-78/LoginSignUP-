@@ -15,6 +15,7 @@ const LoginComponent = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log('Login submitted:', { email, password });
+    alert('Login In Successfull');
   };
 
   return (

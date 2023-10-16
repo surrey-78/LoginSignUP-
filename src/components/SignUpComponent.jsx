@@ -26,6 +26,7 @@ const SignupComponent = () => {
     }
 
     console.log('Signup submitted:', { email, password });
+    alert('Signed Up Successfully');
   };
 
   return (
